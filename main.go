@@ -12,8 +12,20 @@ func main() {
 	// Declare a variable of type string
 	// Assign a value to the variable
 	// strings are only double quoted
-	var name string = "John Doe"
+	var nameone string = "Pig" // first variable and type declaration (string)
+	var nametwo = "Cow"        // type inference
+	var namethree string       //no value assigned but can be assigned later
 
 	// Print the value of the variable
-	fmt.Println(name)
+	fmt.Println(nameone, nametwo, namethree)
+
+	nameone = "Dog"   // reassigning the value of the variable
+	namethree = "Cat" // assigning the value of the variable after declaration
+
+	// Print the value of the variable
+	fmt.Println(nameone, nametwo, namethree)
+
+	// another way to initialize a variable
+	namefour := "Elephant" // short variable declaration, only use when initializing a variable
+	fmt.Println(namefour)  // := is used to declare and initialize a variable but can only be used inside a function
 }
