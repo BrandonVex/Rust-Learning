@@ -9,9 +9,11 @@ func main() {
 	fmt.Println("Welcome to Go Programming!")
 	fmt.Println("This is my first Go Program!")
 
-}
+	// Declare a variable of type string
+	// Assign a value to the variable
+	// strings are only double quoted
+	var name string = "John Doe"
 
-// Output:
-// Hello, World!
-// Welcome to Go Programming!
-// This is my first Go Program!
+	// Print the value of the variable
+	fmt.Println(name)
+}
