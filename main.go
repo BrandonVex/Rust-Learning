@@ -28,4 +28,17 @@ func main() {
 	// another way to initialize a variable
 	namefour := "Elephant" // short variable declaration, only use when initializing a variable
 	fmt.Println(namefour)  // := is used to declare and initialize a variable but can only be used inside a function
+
+	// ints
+	// all 3 are valid ways to declare an integer variable
+	var ageOne int = 20
+	var ageTwo = 30
+	ageThree := 40
+
+	fmt.Println(ageOne, ageTwo, ageThree)
 }
+
+//PrintLn is a function that is used to print the message to the console (print line)
+
+// Go is a statically typed language, which means that the type of a variable is known at compile time.
+// Go is a compiled language, which means that the code you write needs to be compiled before it can be run.
