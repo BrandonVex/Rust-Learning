@@ -36,7 +36,23 @@ func main() {
 	ageThree := 40
 
 	fmt.Println(ageOne, ageTwo, ageThree)
+
+	//bits and memory
+	var numOne int8 = 25 // 8 bit integer which has a range of -128 to 127
+	var numTwo int16 = 256 // 16 bit integer which has a range of -32768 to 32767
+	var numThree int32 = 65536 // 32 bit integer which has a range of -2147483648 to 2147483647
+
+	fmt.Println(numOne, numTwo, numThree)
+
+	//floats
+	var scoreOne float32 = 25.98 // 32 bit float which has a range of 1.18E-38 to 3.4E+38
+	var scoreTwo float64 = 25.987654321 // 64 bit float which has a range of 2.23E-308 to 1.80E+308 (more percision)
+	scoreThree := 1.5 // type inference for float64
+
+	fmt.Println(scoreOne, scoreTwo, scoreThree)
+
 }
+
 
 //PrintLn is a function that is used to print the message to the console (print line)
 
