@@ -51,5 +51,5 @@ function updateRecords(id, prop, value) {
 // 3. If prop is "tracks" and value isn't empty (""), push the value onto the end of the album's existing tracks array.
 // 4. If value is empty (""), delete the given prop property from the album.
 
-updateRecords(5439, "artist", "ABBA");
+console.log(updateRecords(5439, "artist", "ABBA")); // { '1245': { artist: 'Robert Palmer', tracks: [] }, '2468': { album: '1999', artist: 'Prince', tracks: [ '1999', 'Little Red Corvette' ] }, '2548': { album: 'Slippery When Wet', artist: 'Bon Jovi', tracks: [ 'Let It Rock', 'You Give Love a Bad Name' ] }, '5439': { album: 'ABBA Gold', artist: 'ABBA' } }
 
