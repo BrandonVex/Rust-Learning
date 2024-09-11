@@ -1,2 +1,1 @@
-# Go-Projects
- Golang Repo
+This is storing JavaScript Learning for now
