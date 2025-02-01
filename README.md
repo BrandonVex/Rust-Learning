@@ -1,1 +1,1 @@
-This is storing JavaScript Learning for now
+This is currently storing my Rust-Learning Path
