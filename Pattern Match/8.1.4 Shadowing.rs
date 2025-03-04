@@ -5,7 +5,7 @@ fn main() {
     } 
 
     match age {
-        // Match can also introduce a new shadowed variable :)
+        // Match can also introduce a new shadowed variable :).
         Some(age) =>  println!("age is a new variable, it's value is {}",age),
         _ => ()
     }
